@@ -1,5 +1,7 @@
 package main
 
 func main() {
-	CreateTable()
+	if !ReadData() {
+		CreateTable()
+	}
 }
